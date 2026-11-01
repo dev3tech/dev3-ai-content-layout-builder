@@ -1,0 +1,4 @@
+.dev3cl-period-toggle{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:rgba(79,70,229,.1);margin:0 auto}
+.dev3cl-period-toggle button{border:0;background:transparent;padding:8px 18px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer;color:inherit}
+.dev3cl-period-toggle button.is-active{background:#4f46e5;color:#fff}
+.elementor-widget-html:has(.dev3cl-period-toggle),.wpb_raw_html:has(.dev3cl-period-toggle){text-align:center}

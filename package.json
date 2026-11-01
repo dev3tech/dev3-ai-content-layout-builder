@@ -1,0 +1,23 @@
+{
+  "name": "dev3-ai-content-layout-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Gemini AI add-on for Elementor, WPBakery, the block editor and the Media Library.",
+  "author": "DEV3 Technologies",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js src tests/js",
+    "test": "wp-scripts test-unit-js --config jest.config.js",
+    "make-pot": "wp i18n make-pot . languages/dev3-ai-content-layout-builder.pot --exclude=node_modules,vendor,build,tests,dist,docs --domain=dev3-ai-content-layout-builder",
+    "package": "bash bin/package.sh",
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.0.0",
+    "@wordpress/scripts": "^30.0.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
