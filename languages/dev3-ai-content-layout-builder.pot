@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: DEV3 AI Content & Layout Builder for Elementor, WPBakery & Gutenberg 1.0.0\n"
+"Project-Id-Version: DEV3 AI Content & Layout Builder for Elementor, WPBakery & Gutenberg 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dev3-ai-content-layout-builder\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #. Description of the plugin
 #: dev3-ai-content-layout-builder.php
-msgid "Generate copy, translate, write SEO meta, build section layouts and describe images with Google Gemini — right inside Elementor, WPBakery, the block editor and the Media Library."
+msgid "Generate copy, translate, write SEO meta, build section layouts and describe images with DEV3 AI — right inside Elementor, WPBakery, the block editor and the Media Library."
 msgstr ""
 
 #. Author of the plugin

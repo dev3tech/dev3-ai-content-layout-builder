@@ -1,14 +1,14 @@
 === DEV3 AI Content & Layout Builder for Elementor, WPBakery & Gutenberg ===
 Contributors: dev3tech
-Tags: ai, gemini, elementor, wpbakery, content generator
+Tags: ai, elementor, wpbakery, gutenberg, content generator
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Write, rewrite, translate, generate SEO meta, build whole sections and describe images with Google Gemini — inside Elementor, WPBakery, the block editor and the Media Library.
+Write, rewrite, translate, generate SEO meta, build whole sections and describe images with DEV3 AI — inside Elementor, WPBakery, the block editor and the Media Library.
 
 == Description ==
 
@@ -31,7 +31,7 @@ Integrations:
 
 = Privacy =
 
-Prompts, the content you ask the AI to work on, and images you choose to analyze are sent to Google's Gemini API using your API key. Nothing is sent until a user clicks an AI action. The API key is encrypted in your database (AES-256-GCM) and never sent to the browser.tech.
+Prompts, the content you ask the AI to work on, and images you choose to analyze are sent to Google's Gemini API using your API key. Nothing is sent until a user clicks an AI action. The API key is encrypted in your database (AES-256-GCM) and never sent to the browser.
 
 == Installation ==
 
@@ -53,6 +53,11 @@ Any Gemini text model available to your key. Defaults: gemini-2.5-flash (fast) a
 Users with `edit_posts` can generate; users with `manage_options` change settings. Both can be changed with the `dev3cl_capability` and `dev3cl_manage_capability` filters.
 
 == Changelog ==
+
+= 1.0.1 =
+* Branding: the plugin description and readme now say "DEV3 AI" instead of naming the AI provider.
+* Readme tags updated.
+* Fixed a typo in the privacy text.
 
 = 1.0.0 =
 * Initial release.

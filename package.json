@@ -1,6 +1,6 @@
 {
   "name": "dev3-ai-content-layout-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Google Gemini AI add-on for Elementor, WPBakery, the block editor and the Media Library.",
   "author": "DEV3 Technologies",

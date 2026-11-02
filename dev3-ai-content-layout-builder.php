@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       DEV3 AI Content & Layout Builder for Elementor, WPBakery & Gutenberg
  * Plugin URI:        https://dev3.tech/marketplace/dev3-ai-content-layout-builder
- * Description:       Generate copy, translate, write SEO meta, build section layouts and describe images with Google Gemini — right inside Elementor, WPBakery, the block editor and the Media Library.
- * Version:           1.0.0
+ * Description:       Generate copy, translate, write SEO meta, build section layouts and describe images with DEV3 AI — right inside Elementor, WPBakery, the block editor and the Media Library.
+ * Version:           1.0.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            DEV3 Technologies
@@ -19,7 +19,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'DEV3CL_VERSION', '1.0.0' );
+define( 'DEV3CL_VERSION', '1.0.1' );
 define( 'DEV3CL_FILE', __FILE__ );
 define( 'DEV3CL_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DEV3CL_URL', plugin_dir_url( __FILE__ ) );

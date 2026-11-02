@@ -1,6 +1,6 @@
 # DEV3 AI Content & Layout Builder for Elementor, WPBakery & Gutenberg
 
-Write, rewrite, translate, generate SEO meta, build whole sections and describe images with Google AI — inside Elementor, WPBakery, the block editor and the Media Library.
+Write, rewrite, translate, generate SEO meta, build whole sections and describe images with DEV3 AI — inside Elementor, WPBakery, the block editor and the Media Library.
 
 ## Features
 
@@ -21,7 +21,7 @@ Integrations:
 * Media Library: "Generate alt text, caption & title" in attachment details, plus a bulk action.
 
 ### Privacy
-Prompts, the content you ask the AI to work on, and images you choose to analyze are sent to Google's AI API using your API key. Nothing is sent until a user clicks an AI action. The API key is encrypted in your database (AES-256-GCM) and never sent to the browser.tech.
+Prompts, the content you ask the AI to work on, and images you choose to analyze are sent to Google's AI API using your API key. Nothing is sent until a user clicks an AI action. The API key is encrypted in your database (AES-256-GCM) and never sent to the browser.
 
 ## Requirements
 
@@ -71,6 +71,11 @@ Users with `edit_posts` can generate; users with `manage_options` change setting
 The full HTML guide (installation, settings, hooks and FAQ) is in [`docs/index.html`](docs/index.html). Open it in a browser after cloning or downloading the repository.
 
 ## Changelog
+
+### 1.0.1
+* Branding: the plugin description and readme now say "DEV3 AI" instead of naming the AI provider.
+* Readme tags updated.
+* Fixed a typo in the privacy text.
 
 ### 1.0.0
 * Initial release.
